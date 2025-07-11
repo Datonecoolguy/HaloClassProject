@@ -1,0 +1,96 @@
+:root {
+  --purple: #8e44ad;
+  --light-purple: #d2b4de;
+  --gold: #f39c12;
+  --soft-pink: #fff3f9;
+  --dark: #2c2c2c;
+  --light: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fafafa;
+  color: var(--dark);
+}
+
+.navbar {
+  background-color: var(--purple);
+  color: var(--light);
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 4px solid var(--gold);
+}
+
+.navbar nav {
+  margin-top: 0.5rem;
+}
+
+.navbar a {
+  margin: 0 1rem;
+  color: var(--light);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: var(--soft-pink);
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  color: var(--purple);
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.programs {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.programs h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.program-card {
+  background-color: var(--light);
+  border: 1px solid var(--light-purple);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.program-card h4 {
+  margin: 0;
+  color: var(--purple);
+}
+
+.badge.sold {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background: red;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: var(--purple);
+  color: var(--light);
+  margin-top: 2rem;
+}
